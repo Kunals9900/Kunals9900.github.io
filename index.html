@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Shaw | ML Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
+
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tight text-blue-600">KS.</span>
+            <div class="space-x-6 text-sm font-medium">
+                <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl font-extrabold text-slate-900 mb-4">Kunal Shaw</h1>
+        <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+            Machine Learning Engineer specializing in <span class="text-blue-600">GenAI, RAG, and Computer Vision</span>. 
+            Currently building at Digitate.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="mailto:kunaldav001@gmail.com" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition">Contact Me</a>
+            <a href="https://linkedin.com" target="_blank" class="border border-slate-300 px-6 py-2 rounded-lg font-medium hover:bg-slate-100 transition">LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="experience" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-200">
+        <h2 class="text-3xl font-bold mb-10">Experience</h2>
+        <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+            <div class="flex justify-between items-start mb-4">
+                <div>
+                    <h3 class="text-xl font-bold">Machine Learning Engineer</h3>
+                    <p class="text-blue-600 font-medium tracking-wide uppercase text-xs">Digitate | Oct 2023 - Present</p>
+                </div>
+                <span class="text-slate-400 text-sm">Pune, India</span>
+            </div>
+            <ul class="space-y-3 text-slate-600 list-disc pl-5">
+                <li>Developed GenAI-powered software utilizing LLMs to accelerate code development cycles.</li>
+                <li>Built a RAG model for optimized code searching across 100M+ code samples using FAISS and MongoDB.</li>
+                <li>Integrating Azure and OpenAI TTS models with SSML for human-like speech synthesis.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold mb-10">Featured Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-300 transition-all group">
+                <div class="w-full h-48 bg-slate-100 rounded-xl mb-6 flex items-center justify-center group-hover:bg-blue-50">
+                    <i class="fa-solid fa- Baseball-bat-ball text-4xl text-slate-300 group-hover:text-blue-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Cricket Shot Prediction</h3>
+                <p class="text-slate-600 text-sm mb-4">End-to-end deep learning model for classifying shots from video using 2D pose estimation (88% accuracy).</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-slate-100 text-slate-600 px-2 py-1 rounded text-[10px] font-bold uppercase">TensorFlow</span>
+                    <span class="bg-slate-100 text-slate-600 px-2 py-1 rounded text-[10px] font-bold uppercase">OpenCV</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-300 transition-all group">
+                <div class="w-full h-48 bg-slate-100 rounded-xl mb-6 flex items-center justify-center group-hover:bg-blue-50">
+                    <i class="fa-solid fa-user-shield text-4xl text-slate-300 group-hover:text-blue-400"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Deepfake Detection</h3>
+                <p class="text-slate-600 text-sm mb-4">Self-blending image generation and EfficientNet-b4 architecture for high-accuracy detection (97.64 AUC).</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-slate-100 text-slate-600 px-2 py-1 rounded text-[10px] font-bold uppercase">PyTorch</span>
+                    <span class="bg-slate-100 text-slate-600 px-2 py-1 rounded text-[10px] font-bold uppercase">CNN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-200 bg-slate-50">
+        <h2 class="text-3xl font-bold mb-10 text-center">Technical Arsenal</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white p-4 rounded-xl shadow-sm text-center">
+                <p class="font-bold text-blue-600 mb-1">Languages</p>
+                <p class="text-xs text-slate-500">Python, C++, Linux</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl shadow-sm text-center">
+                <p class="font-bold text-blue-600 mb-1">ML/DL</p>
+                <p class="text-xs text-slate-500">PyTorch, TensorFlow, Keras</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl shadow-sm text-center">
+                <p class="font-bold text-blue-600 mb-1">Databases</p>
+                <p class="text-xs text-slate-500">MongoDB, FAISS, MySQL</p>
+            </div>
+            <div class="bg-white p-4 rounded-xl shadow-sm text-center">
+                <p class="font-bold text-blue-600 mb-1">Tools</p>
+                <p class="text-xs text-slate-500">Docker, MLFlow, Flask</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-5xl mx-auto px-6 py-12 text-center text-slate-400 text-sm">
+        <p>© 2025 Kunal Shaw. Built with Tailwind CSS and passion for ML.</p>
+    </footer>
+
+</body>
+</html>
